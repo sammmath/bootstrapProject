@@ -19,7 +19,10 @@
   <body>
     <header>
       <nav class="navbar bg-body-tertiary p-0">
-        <div class="container-fluid" id="pink-nav">
+        <div
+          class="container-fluid justify-content-center position-fixed"
+          id="pink-nav"
+        >
           <span class="navbar-text">
             Enjoy our great international shipping rates
           </span>
@@ -104,9 +107,14 @@
         </div>
       </section>
     </header>
-    <section id="hydrate" class="my-5">
-      <div><img src="assests/KJS_LIB_24_Model_12_WS.webp" alt="" /></div>
-      <div id="hydrate-div" class="d-flex flex-column justify-content-center">
+    <section id="hydrate" class="my-5 d-flex justify-content-center flex-wrap ">
+      <div class="overflow-hidden">
+        <img src="assests/KJS_LIB_24_Model_12_WS.webp" alt="" />
+      </div>
+      <div
+        id="hydrate-div"
+        class="d-flex flex-column justify-content-center text-center"
+      >
         <h2>hydrate + protect</h2>
         <p>
           replenishes dry lips, maintains the skin barrier, and <br />
@@ -141,7 +149,7 @@
     <section id="kylie-paris" class="my-4 mx-5 rounded">
       <div class="d-flex justify-content-center">
         <div class="d-flex flex-column text-center bg-white">
-          <h2>
+          <h2 class="fw-bold">
             KYLIE'S <br />
             PARIS GLAM LOOK
           </h2>
@@ -169,27 +177,107 @@
 
     <section class="text-center">
       <h2>SHOP BY BRAND</h2>
-      <div class="d-flex justify-content-center my-5">
+      <div
+        class="d-flex justify-content-center align-items-center text-center gap-5 my-5"
+      >
         <br />
-        <img
-          src="assests/1212_12-Days-of-Surprises-2023_mobile_day-12B_4947c153-075d-40fc-971d-d98c215d0228.webp"
-          alt=""
-          class="mx-3 rounded w-25"
-        />
-        <img
-          src="assests/KJS_MULTI_23_CP_06_V2_WS.webp"
-          alt=""
-          class="mx-3 rounded w-25"
-        /><img
-          src="assests/KB_MULTI_23_Holiday_CP_01_WS_1.webp"
-          alt=""
-          class="mx-3 rounded w-25"
-        />
+        <div class="position-relative w-25">
+          <img
+            src="assests/1212_12-Days-of-Surprises-2023_mobile_day-12B_4947c153-075d-40fc-971d-d98c215d0228.webp"
+            alt=""
+            class="rounded w-100"
+          />
+          <h2
+            class="position-absolute top-50 start-50 text-white translate-middle"
+          >
+            KYLIE <br />
+            COSMETICS
+          </h2>
+        </div>
+        <div class="position-relative w-25">
+          <img
+            src="assests/KJS_MULTI_23_CP_06_V2_WS.webp"
+            alt=""
+            class="rounded w-100"
+          />
+          <h2
+            class="position-absolute top-50 start-50 text-white translate-middle"
+          >
+            KYLIE <br />
+            Skin
+          </h2>
+        </div>
+        <div class="position-relative w-25">
+          <img
+            src="assests/KB_MULTI_23_Holiday_CP_01_WS_1.webp"
+            alt=""
+            class="rounded w-100"
+          />
+          <h2
+            class="position-absolute top-50 start-50 text-white translate-middle"
+          >
+            KYLIE <br />
+            baby
+          </h2>
+        </div>
       </div>
       <button type="button" id="normal-btn" class="btn btn-outline-dark">
         shop now
       </button>
     </section>
+    <section
+      id="VIRTUAL-sec"
+      class="rounded-4 d-flex justify-content-center align-items-center w-90 flex-column mx-5 my-5"
+    >
+      <h2 class="text-white">VIRTUAL TRY ON</h2>
+      <button type="button" id="normal-btn" class="btn btn-outline-dark">
+        discover now
+      </button>
+    </section>
+    <section>
+      <h2 id="shop-footer" class="fw-bolder text-center">SHOP OUR IG</h2>
+    </section>
+    <footer>
+      <div class="text-center">
+        <div>
+          <label for=""
+            >sign up for updates: <br /><input
+              type="email"
+              placeholder="email address" /></label
+          ><button type="button" class="btn btn-outline-dark">submit</button>
+        </div>
+        <p>by signing up you agree to our terms.</p>
+      </div>
+      <ul class="d-flex">
+        <li>
+          <a href=""><i class="bx bxl-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="bx bxl-tiktok"></i></a>
+        </li>
+      </ul>
+      <ul class="d-flex">
+        <li><a href="" class="text-secondary">contact us</a></li>
+        <li><a href="" class="text-secondary">faq</a></li>
+        <li><a href="" class="text-secondary">shipping</a></li>
+        <li><a href="" class="text-secondary">order tracking</a></li>
+        <li><a href="" class="text-secondary">rewards</a></li>
+      </ul>
+      <ul class="d-flex">
+        <li><a href="" class="text-secondary">privacy policy </a></li>
+        <li><a href="" class="text-secondary">terms</a></li>
+        <li><a href="" class="text-secondary">accessibility </a></li>
+        <li><a href="" class="text-secondary">set my cookie choices</a></li>
+        <li><a href="" class="text-secondary">cookie policy</a></li>
+      </ul>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

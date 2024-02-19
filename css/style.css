@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
     height:  20000px;
@@ -10,8 +11,6 @@ body{
 }
 #pink-nav{
     background-color: #EFD7E5;
-    justify-content: center;
-    position: fixed;
     z-index: 10000;
     top: 0px;
 }
@@ -49,24 +48,15 @@ body{
     color: #ffffff;
     border: none;
 }
-#hydrate{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 #hydrate div{
     object-fit: contain;
     width: 45%;
     height: 90vh;
     border-radius: 3%;
-    overflow: hidden;
 }
 #hydrate div img{
     width: 100%;
     height: 100%;
-}
-#hydrate-div {
-    text-align: center;
 }
 #hydrate-div h2{
   color: rgb(179, 132, 143);
@@ -88,5 +78,13 @@ body{
 }
 #kylie-paris div :nth-child(1) h2{
     color: rgb(179, 132, 143);
-    font-weight: bold;
+}
+#VIRTUAL-sec{
+    background-image: url(../assests/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#shop-footer{
+    color: #b3848f;
 }
