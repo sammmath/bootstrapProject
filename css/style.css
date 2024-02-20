@@ -15,12 +15,30 @@ body{
 }
 #nav{
     background-color: transparent;
-    position: fixed;
     z-index: 10000;
-    top: 40px;
+    top: 30px;
+}
+.middle-nav{
+    transform: translateY(-50%);
 }
 #nav:hover{
     background-color: white;
+}
+#mega-menu{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    min-height: 400px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
+}
+#megamenu-li:hover #mega-menu{
+    opacity: 1;
+    visibility: visible;
+
 }
 #banner{
     top: 0%;
