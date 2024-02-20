@@ -6,7 +6,6 @@
     list-style: none;
 }
 body{
-    height:  20000px;
     background-color: #F8F1F4 !important;
 }
 #pink-nav{
@@ -85,6 +84,21 @@ body{
     background-size: cover;
     height: 90vh;
 }
-#shop-footer{
+#shop-footer h2{
     color: #b3848f;
+    
+}
+#shop-footer{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#input-footer{
+    width: 80vh;
+}
+#btn-footer{
+    width: 20vh;
+}
+
+#footer-icon li a i{
+    color: rgb(179, 132, 143);
 }
